@@ -1,9 +1,9 @@
 cwmp:
   agent:
     enable: true
-    acsHost: 192.168.17.213
+    acsHost: ""
     acsPort: 80
-    host: 192.168.17.213
+    host: ""
     port: 8080
     requestUrl: /acs
     receiveUrl: /cpe
@@ -21,6 +21,6 @@ cwmp:
         InternetGatewayDevice.DeviceInfo.SoftwareVersion: "v2.1.0-R3"
         InternetGatewayDevice.DeviceInfo.ProvisioningCode: "PROV12345"
         InternetGatewayDevice.DeviceInfo.HardwareVersion: "v2.2.0"
-        InternetGatewayDevice.ManagementServer.ConnectionRequestURL: "http://192.168.17.213:8080/cpe"
+        InternetGatewayDevice.ManagementServer.ConnectionRequestURL: ""
 
         Device.ManagementServer.ParameterKey: ""
