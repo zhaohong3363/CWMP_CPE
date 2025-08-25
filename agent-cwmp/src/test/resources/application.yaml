@@ -1,0 +1,26 @@
+cwmp:
+  agent:
+    enable: true
+    acsHost: 192.168.17.213
+    acsPort: 80
+    host: 192.168.17.213
+    port: 8080
+    requestUrl: /acs
+    receiveUrl: /cpe
+    connectionLimit: 5
+    userName: admin
+    password: admin
+    deviceInfo:
+      manufacturer: sct
+      oui: aaaa
+      productClass: tau
+      serialNumber: 1
+      hardwareVersion: v2.2.0
+      parameter:
+        InternetGatewayDevice.DeviceInfo.DeviceSummary: "Router, VoIP, 4xLAN, 2.4G/5G WiFi"
+        InternetGatewayDevice.DeviceInfo.SoftwareVersion: "v2.1.0-R3"
+        InternetGatewayDevice.DeviceInfo.ProvisioningCode: "PROV12345"
+        InternetGatewayDevice.DeviceInfo.HardwareVersion: "v2.2.0"
+        InternetGatewayDevice.ManagementServer.ConnectionRequestURL: "http://192.168.17.213:8080/cpe"
+
+        Device.ManagementServer.ParameterKey: ""
